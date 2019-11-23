@@ -25,19 +25,16 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-            <div class="container">
-                <div class="container">
-                    <div class ="row">
-                    <p>FUCK</p>
-                    </div>    
-                <div class="container">
-                hola1
-                </div>
-                <div class="container">
-                hola2
-                </div>
-                </div>
+        <div id="base">
+            <div id="tombola">
+                TOMBOLA
             </div>
+            <div id="lista">
+                LISTA DE NUMEROS PASADOS
+            </div>
+            <div id="modalidad">
+                MODALIDAD DE JUEGO
+            </div>
+        </div>
     </body>
 </html>
