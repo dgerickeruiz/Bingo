@@ -26,18 +26,18 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>
-</div>
+            <div class="container">
+                <div class="container">
+                    <div class ="row">
+                    <p>FUCK</p>
+                    </div>    
+                <div class="container">
+                hola1
+                </div>
+                <div class="container">
+                hola2
+                </div>
+                </div>
+            </div>
     </body>
 </html>
