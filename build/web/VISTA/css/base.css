@@ -1,0 +1,61 @@
+.header{
+    background-color:#FFCE54;
+    color:#2c3e50;
+    height:60px;
+    text-align: center;   
+}
+
+.bottom{
+    background-color:#FFCE54;
+    height: 20px;
+    padding:10px;
+    text-align: center;
+}
+
+.context{
+    padding: 20px;
+    background-color:#59ABE3;
+    text-align: center;
+}
+
+.menu{
+    margin-top:10px;
+}
+
+table{
+    align:center;
+    
+}
+
+input{ 
+    width:200px;
+}
+#login{
+    align:center;
+    width:300px;
+}
+#div_form{
+   text-align: center;
+   width:100%;  
+}
+#body{
+    background-color:#7ed6df;
+    text-align: center;
+}
+
+#boton{
+    
+  width: 100%;
+    
+}
+#div_btn{
+    
+    align:left;
+    
+}
+
+h1{
+    
+    text-align: center;
+    
+}
