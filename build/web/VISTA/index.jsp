@@ -27,13 +27,26 @@
     <body>
         <div id="base">
             <div id="tombola">
-                TOMBOLA
+                <h1><center>TOMBOLA</center></h1>
+            </div>
+            <div ID="contenedorboton">
+                <h1><center>BOTON<center></h1>
             </div>
             <div id="lista">
-                LISTA DE NUMEROS PASADOS
+                <h1><center>LISTA DE NUMEROS PASADOS</center></h1>
+                <br>
+                <div>
+                    <ol start="1">
+                        <li> O-60 </li>
+                        <li> I-26 </li>
+                        <li> B-13 </li>
+                        <li> G-49 </li>
+                        <li> N-34 </li>                    
+                    </ol>
+                </div>
             </div>
             <div id="modalidad">
-                MODALIDAD DE JUEGO
+                <h1><center>MODALIDAD DE JUEGO</center></h1>
             </div>
         </div>
     </body>
