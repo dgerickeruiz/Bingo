@@ -31,23 +31,70 @@
             </div>
             <div ID="contenedorboton">
                 <h1><center>BOTON<center></h1>
-            </div>
-            <div id="lista">
-                <h1><center>LISTA DE NUMEROS PASADOS</center></h1>
-                <br>
-                <div>
-                    <ol start="1">
-                        <li> O-60 </li>
-                        <li> I-26 </li>
-                        <li> B-13 </li>
-                        <li> G-49 </li>
-                        <li> N-34 </li>                    
-                    </ol>
-                </div>
-            </div>
-            <div id="modalidad">
-                <h1><center>MODALIDAD DE JUEGO</center></h1>
-            </div>
-        </div>
-    </body>
-</html>
+                            </div>
+                            <div id="lista">
+                                <h1><center>LISTA DE NUMEROS PASADOS</center></h1>
+                                <br>
+                                <div id="navlistdiv">
+                                    <nav>
+                                        <ul class="list-group" start="1">
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                            <li class="list-group-item">B - 13</li>
+                                        </ul>
+                                    </nav>    
+                                </div>
+                            </div>
+                            <div id="modalidad">
+                                <h1><center>MODALIDAD DE JUEGO</center></h1>
+                            </div>
+                            </div>
+                            </body>
+                            </html>
