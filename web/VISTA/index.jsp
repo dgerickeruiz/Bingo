@@ -25,6 +25,59 @@
         <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js" type="text/javascript"></script>
         <title>JSP Page</title>
     </head>
+    <script type="text/javascript">
+       var Basurero = new Array(89);
+       var sorteoArray = new Array(89);
+       var i = 0;
+       var cursor = 0;
+       repetido = false;
+       function test(){
+        
+        var Sorteo = "Coca-Cola";
+        
+        var n = Math.floor(Math.random()*90)+1;
+        
+        while(cursor<=90){
+            
+            if(Basurero[cursor] == n){
+                repetido=true;
+            }
+            cursor++;
+        }
+        cursor=0;
+        if(repetido == false){
+        Basurero[i] = n;
+        
+        if(n>=1 && n<=18){
+            Sorteo = "B - "+n;
+        }
+        if(n>=19 && n<=36){ 
+            Sorteo = "I - "+n;
+        }
+        if(n>=37 && n<=52){  
+            Sorteo = "N - "+n;
+        }
+        if(n>=53 && n<=72){  
+            Sorteo = "G - "+n;
+        }
+        if(n>=73 && n<=90){ 
+            Sorteo = "O - "+n;
+        }
+        
+        sorteoArray[i] = Sorteo
+        
+        alert(repetido + " " + sorteoArray.toString());
+        
+        i++;
+       }
+       if(repetido == true){
+           alert("repetido");
+           repetido = false;
+           test();
+       }
+   }       
+    </script>
+    
     <body>
         <div id="base">
             <div id="tombola">
@@ -36,7 +89,7 @@
                 <br>
                 <h1><center>Boton</center></h1>
                 <div align="center">
-                    <input type="button" value="Clickeame Papu">
+                    <input type="button" value="Clickeame Papu" onclick="test()">
                 </div>
             </div>
             <div id="lista">
@@ -56,11 +109,8 @@
                 </div>
             </div>
             <div id="modalidad">
-                <br>
-                <h1><center>MODALIDAD DE JUEGO</center></h1>
-                <br>
                 <div align="center">
-                    <img src="images/giftModalidadesBingo.gif" alt="Modalidades Bingo" width="50%"/>
+                    <img src="images/giftModalidadesBingo.gif" alt="Modalidades Bingo" width="80%" height="80%"/>
                 </div>
             </div>
         </div>
