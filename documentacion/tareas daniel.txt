@@ -1,0 +1,11 @@
+- <ok> imagen en Modalidad de juego
+- <p.> boton html que use todo el espacio, de esquina a esquina
+- <p.> tombola un numero y letra (Label) gigante
+- <P.> HACER PLANTILLA BINGO
+------------------------------------------
+
+
+Necesitamos:
+	los colores de coca-cola
+	las fuentes
+	logos
