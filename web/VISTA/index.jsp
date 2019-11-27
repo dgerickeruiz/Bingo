@@ -23,62 +23,9 @@
         <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
         <script src="bootstrap-4.3.1-dist/js/bootstrap.js" type="text/javascript"></script>
         <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js" type="text/javascript"></script>
-        <title>JSP Page</title>
+        <script src="scriptSorteo.js" type="text/javascript"></script>
+        <title>Bingo</title>
     </head>
-    <script type="text/javascript">
-       var Basurero = new Array(74);
-       var sorteoArray = new Array(74);
-       var i = 0;
-       var cursor = 0;
-       repetido = false;
-       function test(){
-        
-        var Sorteo = "Coca-Cola";
-        
-        var n = Math.floor(Math.random()*75)+1;
-        
-        while(cursor<=75){
-            
-            if(Basurero[cursor] == n){
-                repetido=true;
-            }
-            cursor++;
-        }
-        cursor=0;
-        if(repetido == false){
-        Basurero[i] = n;
-        
-        if(n>=1 && n<=15){
-            Sorteo = "B - "+n;
-        }
-        if(n>=16 && n<=30){ 
-            Sorteo = "I - "+n;
-        }
-        if(n>=31 && n<=45){  
-            Sorteo = "N - "+n;
-        }
-        if(n>=46 && n<=60){  
-            Sorteo = "G - "+n;
-        }
-        if(n>=61 && n<=75){ 
-            Sorteo = "O - "+n;
-        }
-        
-        sorteoArray[i] = Sorteo
-        document.getElementById('Sorteo').innerHTML = Sorteo;
-        var ul = document.getElementById("sorteoLista");
-        var li = document.createElement("lis");
-        li.appendChild(document.createTextNode(sorteoArray[i]));
-        ul.appendChild(li);
-        i++;
-       }
-       if(repetido == true){
-           repetido = false;
-           test();
-       }
-   }       
-    </script>
-    
     <body>
         <div id="base">
             <div id="tombola">
@@ -92,7 +39,7 @@
                 <br>
                 <h1><center>Boton</center></h1>
                 <div align="center">
-                    <input type="button" value="Clickeame Papu" onclick="test()">
+                    <input type="button" value="Clickeame Papu" onclick="Sortear()">
                 </div>
             </div>
             <div id="lista">
@@ -101,8 +48,8 @@
                 <br>
                 <div id="navlistdiv">
                     <nav>
-                        <ul class="list-group"  id="sorteoLista" start="1">
-                            <li class="list-group-item" id="lis">B - 13</li>                           
+                        <ul class="list-group"  id="sorteoLista">
+                            
                         </ul>
                     </nav>    
                 </div>
