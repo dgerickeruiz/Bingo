@@ -26,8 +26,8 @@
         <title>JSP Page</title>
     </head>
     <script type="text/javascript">
-       var Basurero = new Array(89);
-       var sorteoArray = new Array(89);
+       var Basurero = new Array(74);
+       var sorteoArray = new Array(74);
        var i = 0;
        var cursor = 0;
        repetido = false;
@@ -35,9 +35,9 @@
         
         var Sorteo = "Coca-Cola";
         
-        var n = Math.floor(Math.random()*90)+1;
+        var n = Math.floor(Math.random()*75)+1;
         
-        while(cursor<=90){
+        while(cursor<=75){
             
             if(Basurero[cursor] == n){
                 repetido=true;
@@ -48,30 +48,31 @@
         if(repetido == false){
         Basurero[i] = n;
         
-        if(n>=1 && n<=18){
+        if(n>=1 && n<=15){
             Sorteo = "B - "+n;
         }
-        if(n>=19 && n<=36){ 
+        if(n>=16 && n<=30){ 
             Sorteo = "I - "+n;
         }
-        if(n>=37 && n<=52){  
+        if(n>=31 && n<=45){  
             Sorteo = "N - "+n;
         }
-        if(n>=53 && n<=72){  
+        if(n>=46 && n<=60){  
             Sorteo = "G - "+n;
         }
-        if(n>=73 && n<=90){ 
+        if(n>=61 && n<=75){ 
             Sorteo = "O - "+n;
         }
         
         sorteoArray[i] = Sorteo
-        
-        alert(repetido + " " + sorteoArray.toString());
-        
+        document.getElementById('Sorteo').innerHTML = Sorteo;
+        var ul = document.getElementById("sorteoLista");
+        var li = document.createElement("lis");
+        li.appendChild(document.createTextNode(sorteoArray[i]));
+        ul.appendChild(li);
         i++;
        }
        if(repetido == true){
-           alert("repetido");
            repetido = false;
            test();
        }
@@ -82,6 +83,8 @@
         <div id="base">
             <div id="tombola">
                 <h1><center>TOMBOLA</center></h1>
+                <br>
+                <span id="Sorteo"><center>fuck</center></span>
                 <h4><a href="jquery/reglas.html"><p style="text-align:center">Reglas</p></a></h4>
             </div>
             <div ID="contenedorboton">
@@ -98,12 +101,8 @@
                 <br>
                 <div id="navlistdiv">
                     <nav>
-                        <ul class="list-group" start="1">
-                            <li class="list-group-item">B - 13</li>
-                            <li class="list-group-item">I - 30</li>
-                            <li class="list-group-item">N - 47</li>
-                            <li class="list-group-item">G - 52</li>
-                            <li class="list-group-item">O - 75</li>                            
+                        <ul class="list-group"  id="sorteoLista" start="1">
+                            <li class="list-group-item" id="lis">B - 13</li>                           
                         </ul>
                     </nav>    
                 </div>
