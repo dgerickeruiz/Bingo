@@ -23,7 +23,7 @@
         <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
         <script src="bootstrap-4.3.1-dist/js/bootstrap.js" type="text/javascript"></script>
         <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="scriptSorteo.js" type="text/javascript"></script>
+        <script src="../Controlador/scriptSorteo.js" type="text/javascript"></script>
         <title>Bingo</title>
     </head>
     <body>
@@ -31,15 +31,13 @@
             <div id="tombola">
                 <h1><center>TOMBOLA</center></h1>
                 <br>
-                <span id="Sorteo"><center>fuck</center></span>
-                <h4><a href="jquery/reglas.html"><p style="text-align:center">Reglas</p></a></h4>
+                <span id="Sorteo"><center></center></span>
             </div>
             <div ID="contenedorboton">
                 <br>
                 <br>
-                <h1><center>Boton</center></h1>
-                <div align="center">
-                    <input type="button" value="Clickeame Papu" onclick="Sortear()">
+                <div>
+                    <input id="boton" type="button" class="btn btn-primary" value="Girar la Tombola" onclick="Sortear()">
                 </div>
             </div>
             <div id="lista">
