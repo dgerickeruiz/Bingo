@@ -1,0 +1,3 @@
+http://www.codexexempla.org/curso/curso_4_3_d.php#iB
+https://developer.mozilla.org/es/docs/Web/API/Node/insertarAntes
+https://developer.mozilla.org/es/docs/Web/API/ChildNode/before

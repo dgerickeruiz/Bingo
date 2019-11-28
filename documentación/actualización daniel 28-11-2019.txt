@@ -1,0 +1,16 @@
+- Corregido grosor contenedor "tombola" a 60%; position: absolute;
+- Corregido tamaño numero de tombola (font-size:1250% (antes 2000%)) en css #Sorteo
+- Corregido alineacion Span Sorteo contenido en un <div> con id="Sorteo"
+- Corregio Tamaño de lista, se visualizan todos los numeros a una resolución 500x333
+	base.css: 
+
+	-nav ul{
+    		height:100px; 
+		}
+	para 500x333
+	-nav ul{
+    		height:180px;
+		}
+	para tamaño grande
+  Nota: esto depende mucho de la resolución ya que se define el tamaño <nav> para el caso de <ul>, tambíen se puede modificar el <nav> para el caso de <ol>
+ Nota2: es importante el "heigth" manejarlo en px, se hizo teste con % y no resultó.

@@ -31,7 +31,12 @@
             <div id="tombola">
                 <h1><center>TOMBOLA</center></h1>
                 <br>
-                <span id="Sorteo"><center></center></span>
+                <br>
+                <br>
+                
+                <div id="Sorteo">
+                    <span><center></center></span>
+                </div>
             </div>
             <div ID="contenedorboton">
                 <br>
