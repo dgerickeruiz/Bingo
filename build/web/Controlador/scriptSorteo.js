@@ -37,12 +37,12 @@ function Sortear() {
         }
 
         sorteoArray[i] = Sorteo
+        document.getElementById('Sorteo').style.color="white";
         document.getElementById('Sorteo').innerHTML = Sorteo;
         var ul = document.getElementById("sorteoLista");
         var li = document.createElement("lis");
         li.appendChild(document.createTextNode(sorteoArray[i]));
         ul.appendChild(li);
-        li.className+="list-group-item";
         i++;
     }
     if (repetido == true) {

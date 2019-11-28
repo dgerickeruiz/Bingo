@@ -29,26 +29,18 @@
     <body>
         <div id="base">
             <div id="tombola">
-                <h1><center>TOMBOLA</center></h1>
-                <br>
-                <br>
-                <br>
-                
                 <div id="Sorteo">
-                    <span><center></center></span>
+                    <span id="numero"><center>GIRAR</center></span>
                 </div>
             </div>
             <div ID="contenedorboton">
                 <br>
                 <br>
                 <div>
-                    <input id="boton" type="button" class="btn btn-primary" value="Girar la Tombola" onclick="Sortear()">
+                    <input id="boton" type="button" value="Girar la Tombola" onclick="Sortear()">
                 </div>
             </div>
             <div id="lista">
-                <br>
-                <h1><center>LISTA DE NUMEROS PASADOS</center></h1>
-                <br>
                 <div id="navlistdiv">
                     <nav>
                         <ul class="list-group"  id="sorteoLista">
@@ -58,7 +50,7 @@
                 </div>
             </div>
             <div id="modalidad">
-                <div align="center">
+                <div class="box">
                     <img src="images/giftModalidadesBingo.gif" alt="Modalidades Bingo" width="80%" height="80%"/>
                 </div>
             </div>

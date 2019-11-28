@@ -2,7 +2,9 @@
     position: absolute;
     height: 80%;
     width: 60%;
-    background-color: red; 
+    background-color:#fe001a; 
+    top:20%;
+    
 }
 
 #lista{
@@ -11,7 +13,11 @@
     left:60%;
     height:40%; 
     width:40%;
-    background-color:green;
+    background-color:#fe001a;
+    border:solid;
+    text-align:center;
+    border-color:black;
+    border-width:5px;
 
 }
 #modalidad{
@@ -20,7 +26,10 @@
     left:60%;
     height:60%; 
     width:40%;
-    background-color:violet;
+    background-color:#fe001a;
+    border:solid;
+    border-color:black;
+    border-width:5px;
 
 }
 
@@ -32,6 +41,8 @@
     background-image:url('b.png');
     width: 100%;
     height: 100%;
+    background-color: #fe001a;
+    
 }
 
 #contenedorboton{
@@ -39,7 +50,7 @@
     top:80%;
     height: 20%;
     width: 60%;
-    background-color: blue;
+    background-color: #fe001a;
 }
 nav ol{
     height:100px;
@@ -52,9 +63,11 @@ nav ol{
     align-content: center;
 }
 nav ul{
-    height:100px;
+    height:260px;
     width:100%;
-    align-content: center;
+    font-size:19px;
+    font-family:Impact;
+    top:0%;
 }
 nav ul{
     overflow:hidden; 
@@ -69,14 +82,10 @@ nav ul{
 }
 
 #Sorteo{
-    
     text-align: center;
     font-size:1250%;
+    left:5000px;
     
-}
-
-li {
-    font-size:500px;
 }
 
 #boton{
@@ -86,7 +95,25 @@ li {
     width: 100%;
     top:0;
     background-color:#9c9c9c;
-    font-size: 500%;
-    font-family: Gotham SSm B;
+    font-size: 450%;
+    border:solid;
+    text-align:center;
+    border-color:black;
+    border-width:5px;
+    color:white;
     
+}
+
+ul{
+    
+    background-color:#fe001a;
+
+}
+
+.box img{
+  width: 387px;
+  height: 387.15px;
+}
+#numero{
+    color:white;
 }
