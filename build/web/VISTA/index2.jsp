@@ -51,7 +51,7 @@
             </div>
             <div id="modalidad">
                 <div>
-                    <img id="carton" src="images/imageCarton.jpg" align="center">
+                    <img id="carton" src="images/Carton_X.jpg" align="center">
                 </div>
             </div>
         </div>
