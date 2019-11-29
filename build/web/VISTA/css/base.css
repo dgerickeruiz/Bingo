@@ -3,8 +3,7 @@
     height: 80%;
     width: 60%;
     background-color:#fe001a; 
-    top:20%;
-    
+    top:20%;  
 }
 
 #lista{
@@ -18,8 +17,8 @@
     text-align:center;
     border-color:black;
     border-width:5px;
-
 }
+
 #modalidad{
     position:absolute;
     top:40%;
@@ -41,8 +40,7 @@
     background-image:url('b.png');
     width: 100%;
     height: 100%;
-    background-color: #fe001a;
-    
+    background-color: #fe001a;  
 }
 
 #contenedorboton{
@@ -52,16 +50,19 @@
     width: 60%;
     background-color: #fe001a;
 }
+
 nav ol{
     height:100px;
     width:100%;
     align-content: center;
 }
+
 nav ol{
     overflow:hidden; 
     overflow-y:scroll;
     align-content: center;
 }
+
 nav ul{
     height:260px;
     width:100%;
@@ -69,11 +70,13 @@ nav ul{
     font-family:Impact;
     top:0%;
 }
+
 nav ul{
     overflow:hidden; 
     overflow-y:scroll;
     align-content: center;
 }
+
 #navlistdiv{
     position:absolute;
     left:0%;
@@ -84,12 +87,10 @@ nav ul{
 #Sorteo{
     text-align: center;
     font-size:1250%;
-    left:5000px;
-    
+    left:5000px;   
 }
 
 #boton{
-    
     position:absolute;
     height: 100%;
     width: 100%;
@@ -100,20 +101,69 @@ nav ul{
     text-align:center;
     border-color:black;
     border-width:5px;
-    color:white;
-    
+    color:white;    
 }
 
-ul{
-    
-    background-color:#fe001a;
+#botonModalidadF1{
+    position:absolute;
+    top:10%;
+    width: 30%;
+    background-color:#9c9c9c;
+    font-size: 250%;
+    border:solid;
+    text-align:center;
+    border-color:black;
+    border-width:5px;
+    color:white;
+}
 
+#botonModalidadF2{
+    position:absolute;
+    top:40%;
+    width: 30%;
+    background-color:#9c9c9c;
+    font-size: 250%;
+    border:solid;
+    text-align:center;
+    border-color:black;
+    border-width:5px;
+    color:white;
+}
+
+#botonModalidadF3{
+    position:absolute;
+    top:70%;
+    width: 30%;
+    background-color:#9c9c9c;
+    font-size: 250%;
+    border:solid;
+    text-align:center;
+    border-color:black;
+    border-width:5px;
+    color:white;
+}
+
+#tablaModalidad{
+    width: 100%;
+}
+
+ul{  
+    background-color:#fe001a;
 }
 
 .box img{
   width: 387px;
   height: 387.15px;
 }
+
 #numero{
     color:white;
+}
+
+#redondo{
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 2px solid #000000;
+    background-color:red;
 }

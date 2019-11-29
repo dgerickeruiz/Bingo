@@ -51,7 +51,23 @@
             </div>
             <div id="modalidad">
                 <div class="box">
-                    <img src="images/giftModalidadesBingo.gif" alt="Modalidades Bingo" width="80%" height="80%"/>
+                    <table id="tablaModalidad">
+                        <tr>
+                            <th><input id="botonModalidadF1" type="button" value="Click me"></th>
+                            <th><input id="botonModalidadF1" type="button" value="Click me"></th>
+                            <th><input id="botonModalidadF1" type="button" value="Click me"></th>
+                        </tr>
+                        <tr>
+                            <th><input id="botonModalidadF2" type="button" value="Click me"></th>
+                            <th><input id="botonModalidadF2" type="button" value="Click me"></th>
+                            <th><input id="botonModalidadF2" type="button" value="Click me"></th>
+                        </tr>
+                        <tr>
+                            <th><input id="botonModalidadF3" type="button" value="Click me"></th>
+                            <th><input id="botonModalidadF3" type="button" value="Click me"></th>
+                            <th><input id="botonModalidadF3" type="button" value="Click me"></th>
+                        </tr>                        
+                    </table>
                 </div>
             </div>
         </div>
