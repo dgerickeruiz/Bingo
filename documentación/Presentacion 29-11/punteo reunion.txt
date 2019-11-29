@@ -1,0 +1,5 @@
+reducir modalidad
+boton poner botella 350 cc
+pedir animación
+cuando sale el numero poner sonido destape botella
+pedir animación de tombola
