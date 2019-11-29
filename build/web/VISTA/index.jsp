@@ -53,19 +53,19 @@
                 <div class="box">
                     <table id="tablaModalidad">
                         <tr>
-                            <th><input id="botonModalidadF1" type="button" value="Click me"></th>
-                            <th><input id="botonModalidadF1" type="button" value="Click me"></th>
-                            <th><input id="botonModalidadF1" type="button" value="Click me"></th>
+                            <th><input id="botonModalidadF1" type="button" value="Lineal B"></th>
+                            <th><input id="botonModalidadF1" type="button" value="Lineal I"></th>
+                            <th><input id="botonModalidadF1" type="button" value="Lineal N"></th>
                         </tr>
                         <tr>
-                            <th><input id="botonModalidadF2" type="button" value="Click me"></th>
-                            <th><input id="botonModalidadF2" type="button" value="Click me"></th>
-                            <th><input id="botonModalidadF2" type="button" value="Click me"></th>
+                            <th><input id="botonModalidadF2" type="button" value="Lineal G"></th>
+                            <th><input id="botonModalidadF2" type="button" value="Lineal O"></th>
+                            <th><input id="botonModalidadF2" type="button" value="Forma L"></th>
                         </tr>
                         <tr>
-                            <th><input id="botonModalidadF3" type="button" value="Click me"></th>
-                            <th><input id="botonModalidadF3" type="button" value="Click me"></th>
-                            <th><input id="botonModalidadF3" type="button" value="Click me"></th>
+                            <th><input id="botonModalidadF3" type="button" value="Forma O"></th>
+                            <th><input id="botonModalidadF3" type="button" value="Forma U"></th>
+                            <th><input id="botonModalidadF3" type="button" value="Completo"></th>
                         </tr>                        
                     </table>
                 </div>
