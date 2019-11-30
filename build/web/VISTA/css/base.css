@@ -163,12 +163,24 @@ ul{
     color:white;
 }
 
-#redondo{
+.redondo1{
+    width: 80%;
+    font-size: 170%;
     border-radius: 200px 200px 200px 200px;
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
     border: 2px solid #000000;
     background-color:red;
+}
+
+.redondo{
+    width: 50%;
+    font-size: 170%;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 2px solid #000000;
+    background-color:white;
 }
 
 #carton{

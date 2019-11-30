@@ -1,5 +1,9 @@
-reducir modalidad
-boton poner botella 350 cc
-pedir animación
-cuando sale el numero poner sonido destape botella
-pedir animación de tombola
+>reducir imagen modalidad
+	>quitar numeros de carton,
+>boton poner botella 350 cc
+
+>pedir animación de tombola a romina
+
+>cuando sale el numero poner sonido destape botella
+
+>poner una pantalla auxiliar con todos del numero del bingo
