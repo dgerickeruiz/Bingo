@@ -3,136 +3,244 @@
         <title>Carton Bingo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <script src="jquery/jquery.min.js"></script>
+        <link href="bootstrap-4.3.1-dist/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap-4.3.1-dist/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.js" type="text/javascript"></script>
+        <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+        <script src="bootstrap-4.3.1-dist/js/bootstrap.js" type="text/javascript"></script>
+        <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js" type="text/javascript"></script>
         <link href="css/base.css" rel="stylesheet" type="text/css">
         <script src="../Controlador/scriptModalidad.js" type="text/javascript"></script>
+        <link href="css/bingo.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <table width="100%" height="100%">
-            <tr>		
-                <th><input class="redondo1" type="button" value="B"></th>
-                <th><input class="redondo1" type="button" value="I"></th>
-                <th><input class="redondo1" type="button" value="N"></th>
-                <th><input class="redondo1" type="button" value="G"></th>
-                <th><input class="redondo1" type="button" value="O"></th>
-            </tr>
-            <tr>		
-                <th><input class="redondo" type="button" value="01"></th>
-                <th><input class="redondo" type="button" value="16"></th>
-                <th><input class="redondo" type="button" value="31"></th>
-                <th><input class="redondo" type="button" value="46"></th>
-                <th><input class="redondo" type="button" value="61"></th>
-            </tr>		
+        <div id="bingo" class="container-fluid">
+            <table>
+                <!--
+                <tr>		
+                    <th><input class="redondo1" type="button" value="B"></th>
+                    <th><input class="redondo1" type="button" value="I"></th>
+                    <th><input class="redondo1" type="button" value="N"></th>
+                    <th><input class="redondo1" type="button" value="G"></th>
+                    <th><input class="redondo1" type="button" value="O"></th>
+                </tr>
+                <tr>		
+                    <th><input class="redondo" type="button" value="01"></th>
+                    <th><input class="redondo" type="button" value="16"></th>
+                    <th><input class="redondo" type="button" value="31"></th>
+                    <th><input class="redondo" type="button" value="46"></th>
+                    <th><input class="redondo" type="button" value="61"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="02"></th>
+                    <th><input class="redondo" type="button" value="17"></th>
+                    <th><input class="redondo" type="button" value="32"></th>
+                    <th><input class="redondo" type="button" value="47"></th>
+                    <th><input class="redondo" type="button" value="62"></th>
+                </tr>		
+                <tr>		
+                    <th><input class="redondo" type="button" value="03"></th>
+                    <th><input class="redondo" type="button" value="18"></th>
+                    <th><input class="redondo" type="button" value="33"></th>
+                    <th><input class="redondo" type="button" value="48"></th>
+                    <th><input class="redondo" type="button" value="63"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="04"></th>
+                    <th><input class="redondo" type="button" value="19"></th>
+                    <th><input class="redondo" type="button" value="34"></th>
+                    <th><input class="redondo" type="button" value="49"></th>
+                    <th><input class="redondo" type="button" value="64"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="05"></th>
+                    <th><input class="redondo" type="button" value="20"></th>
+                    <th><input class="redondo" type="button" value="35"></th>
+                    <th><input class="redondo" type="button" value="50"></th>
+                    <th><input class="redondo" type="button" value="65"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="06"></th>
+                    <th><input class="redondo" type="button" value="21"></th>
+                    <th><input class="redondo" type="button" value="36"></th>
+                    <th><input class="redondo" type="button" value="51"></th>
+                    <th><input class="redondo" type="button" value="66"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="07"></th>
+                    <th><input class="redondo" type="button" value="22"></th>
+                    <th><input class="redondo" type="button" value="37"></th>
+                    <th><input class="redondo" type="button" value="52"></th>
+                    <th><input class="redondo" type="button" value="67"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="08"></th>
+                    <th><input class="redondo" type="button" value="23"></th>
+                    <th><input class="redondo" type="button" value="38"></th>
+                    <th><input class="redondo" type="button" value="53"></th>
+                    <th><input class="redondo" type="button" value="68"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="09"></th>
+                    <th><input class="redondo" type="button" value="24"></th>
+                    <th><input class="redondo" type="button" value="39"></th>
+                    <th><input class="redondo" type="button" value="54"></th>
+                    <th><input class="redondo" type="button" value="69"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="10"></th>
+                    <th><input class="redondo" type="button" value="25"></th>
+                    <th><input class="redondo" type="button" value="40"></th>
+                    <th><input class="redondo" type="button" value="55"></th>
+                    <th><input class="redondo" type="button" value="70"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="11"></th>
+                    <th><input class="redondo" type="button" value="26"></th>
+                    <th><input class="redondo" type="button" value="41"></th>
+                    <th><input class="redondo" type="button" value="56"></th>
+                    <th><input class="redondo" type="button" value="71"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="12"></th>
+                    <th><input class="redondo" type="button" value="27"></th>
+                    <th><input class="redondo" type="button" value="42"></th>
+                    <th><input class="redondo" type="button" value="57"></th>
+                    <th><input class="redondo" type="button" value="72"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="13"></th>
+                    <th><input class="redondo" type="button" value="28"></th>
+                    <th><input class="redondo" type="button" value="43"></th>
+                    <th><input class="redondo" type="button" value="58"></th>
+                    <th><input class="redondo" type="button" value="73"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="14"></th>
+                    <th><input class="redondo" type="button" value="29"></th>
+                    <th><input class="redondo" type="button" value="44"></th>
+                    <th><input class="redondo" type="button" value="59"></th>
+                    <th><input class="redondo" type="button" value="74"></th>
+                </tr>		
+    
+                <tr>		
+                    <th><input class="redondo" type="button" value="15"></th>
+                    <th><input class="redondo" type="button" value="30"></th>
+                    <th><input class="redondo" type="button" value="45"></th>
+                    <th><input class="redondo" type="button" value="60"></th>
+                    <th><input class="redondo" type="button" value="75"></th>
+                </tr>
+                -->   
 
-            <tr>		
-                <th><input class="redondo" type="button" value="02"></th>
-                <th><input class="redondo" type="button" value="17"></th>
-                <th><input class="redondo" type="button" value="32"></th>
-                <th><input class="redondo" type="button" value="47"></th>
-                <th><input class="redondo" type="button" value="62"></th>
-            </tr>		
-            <tr>		
-                <th><input class="redondo" type="button" value="03"></th>
-                <th><input class="redondo" type="button" value="18"></th>
-                <th><input class="redondo" type="button" value="33"></th>
-                <th><input class="redondo" type="button" value="48"></th>
-                <th><input class="redondo" type="button" value="63"></th>
-            </tr>		
-
-            <tr>		
-                <th><input class="redondo" type="button" value="04"></th>
-                <th><input class="redondo" type="button" value="19"></th>
-                <th><input class="redondo" type="button" value="34"></th>
-                <th><input class="redondo" type="button" value="49"></th>
-                <th><input class="redondo" type="button" value="64"></th>
-            </tr>		
-
-            <tr>		
-                <th><input class="redondo" type="button" value="05"></th>
-                <th><input class="redondo" type="button" value="20"></th>
-                <th><input class="redondo" type="button" value="35"></th>
-                <th><input class="redondo" type="button" value="50"></th>
-                <th><input class="redondo" type="button" value="65"></th>
-            </tr>		
-
-            <tr>		
-                <th><input class="redondo" type="button" value="06"></th>
-                <th><input class="redondo" type="button" value="21"></th>
-                <th><input class="redondo" type="button" value="36"></th>
-                <th><input class="redondo" type="button" value="51"></th>
-                <th><input class="redondo" type="button" value="66"></th>
-            </tr>		
-
-            <tr>		
-                <th><input class="redondo" type="button" value="07"></th>
-                <th><input class="redondo" type="button" value="22"></th>
-                <th><input class="redondo" type="button" value="37"></th>
-                <th><input class="redondo" type="button" value="52"></th>
-                <th><input class="redondo" type="button" value="67"></th>
-            </tr>		
-
-            <tr>		
-                <th><input class="redondo" type="button" value="08"></th>
-                <th><input class="redondo" type="button" value="23"></th>
-                <th><input class="redondo" type="button" value="38"></th>
-                <th><input class="redondo" type="button" value="53"></th>
-                <th><input class="redondo" type="button" value="68"></th>
-            </tr>		
-
-            <tr>		
-                <th><input class="redondo" type="button" value="09"></th>
-                <th><input class="redondo" type="button" value="24"></th>
-                <th><input class="redondo" type="button" value="39"></th>
-                <th><input class="redondo" type="button" value="54"></th>
-                <th><input class="redondo" type="button" value="69"></th>
-            </tr>		
-
-            <tr>		
-                <th><input class="redondo" type="button" value="10"></th>
-                <th><input class="redondo" type="button" value="25"></th>
-                <th><input class="redondo" type="button" value="40"></th>
-                <th><input class="redondo" type="button" value="55"></th>
-                <th><input class="redondo" type="button" value="70"></th>
-            </tr>		
-
-            <tr>		
-                <th><input class="redondo" type="button" value="11"></th>
-                <th><input class="redondo" type="button" value="26"></th>
-                <th><input class="redondo" type="button" value="41"></th>
-                <th><input class="redondo" type="button" value="56"></th>
-                <th><input class="redondo" type="button" value="71"></th>
-            </tr>		
-
-            <tr>		
-                <th><input class="redondo" type="button" value="12"></th>
-                <th><input class="redondo" type="button" value="27"></th>
-                <th><input class="redondo" type="button" value="42"></th>
-                <th><input class="redondo" type="button" value="57"></th>
-                <th><input class="redondo" type="button" value="72"></th>
-            </tr>		
-
-            <tr>		
-                <th><input class="redondo" type="button" value="13"></th>
-                <th><input class="redondo" type="button" value="28"></th>
-                <th><input class="redondo" type="button" value="43"></th>
-                <th><input class="redondo" type="button" value="58"></th>
-                <th><input class="redondo" type="button" value="73"></th>
-            </tr>		
-
-            <tr>		
-                <th><input class="redondo" type="button" value="14"></th>
-                <th><input class="redondo" type="button" value="29"></th>
-                <th><input class="redondo" type="button" value="44"></th>
-                <th><input class="redondo" type="button" value="59"></th>
-                <th><input class="redondo" type="button" value="74"></th>
-            </tr>		
-
-            <tr>		
-                <th><input class="redondo" type="button" value="15"></th>
-                <th><input class="redondo" type="button" value="30"></th>
-                <th><input class="redondo" type="button" value="45"></th>
-                <th><input class="redondo" type="button" value="60"></th>
-                <th><input class="redondo" type="button" value="75"></th>
-            </tr>		
-        </table>
+                <tr>
+                    <th><input class="redondo1" type="button" value="B"></th>
+                    <th><input class="redondo" type="button" id ="1" value="01" onclick="setColor('1')"></th>
+                    <th><input class="redondo" type="button" id ="2" value="02" onclick="setColor('2')"></th>
+                    <th><input class="redondo" type="button" id ="3" value="03" onclick="setColor('3')"></th>
+                    <th><input class="redondo" type="button" id ="4" value="04" onclick="setColor('4')"></th>
+                    <th><input class="redondo" type="button" id ="5" value="05" onclick="setColor('5')"></th>
+                    <th><input class="redondo" type="button" id ="6" value="06" onclick="setColor('6')"></th>
+                    <th><input class="redondo" type="button" id ="7" value="07" onclick="setColor('7')"></th>
+                    <th><input class="redondo" type="button" id ="8" value="08" onclick="setColor('8')"></th>
+                    <th><input class="redondo" type="button" id ="9" value="09" onclick="setColor('9')"></th>
+                    <th><input class="redondo" type="button" id ="10" value="10" onclick="setColor('10')"></th>
+                    <th><input class="redondo" type="button" id ="11" value="11" onclick="setColor('11')"></th>
+                    <th><input class="redondo" type="button" id ="12" value="12" onclick="setColor('12')"></th>
+                    <th><input class="redondo" type="button" id ="13" value="13" onclick="setColor('13')"></th>
+                    <th><input class="redondo" type="button" id ="14" value="14" onclick="setColor('14')"></th>
+                    <th><input class="redondo" type="button" id ="15" value="15" onclick="setColor('15')"></th>
+                </tr>
+                <tr>
+                    <th><input class="redondo1" type="button" value="I"></th>
+                    <th><input class="redondo" type="button" id ="16" value="16" onclick="setColor('16')"></th>
+                    <th><input class="redondo" type="button" id ="17" value="17" onclick="setColor('17')"></th>
+                    <th><input class="redondo" type="button" id ="18" value="18" onclick="setColor('18')"></th>
+                    <th><input class="redondo" type="button" id ="19" value="19" onclick="setColor('19')"></th>
+                    <th><input class="redondo" type="button" id ="20" value="20" onclick="setColor('20')"></th>
+                    <th><input class="redondo" type="button" id ="21" value="21" onclick="setColor('21')"></th>
+                    <th><input class="redondo" type="button" id ="22" value="22" onclick="setColor('22')"></th>
+                    <th><input class="redondo" type="button" id ="23" value="23" onclick="setColor('23')"></th>
+                    <th><input class="redondo" type="button" id ="24" value="24" onclick="setColor('24')"></th>
+                    <th><input class="redondo" type="button" id ="25" value="25" onclick="setColor('25')"></th>
+                    <th><input class="redondo" type="button" id ="26" value="26" onclick="setColor('26')"></th>
+                    <th><input class="redondo" type="button" id ="27" value="27" onclick="setColor('27')"></th>
+                    <th><input class="redondo" type="button" id ="28" value="28" onclick="setColor('28')"></th>
+                    <th><input class="redondo" type="button" id ="29" value="29" onclick="setColor('29')"></th>
+                    <th><input class="redondo" type="button" id ="30" value="30" onclick="setColor('30')"></th>
+                </tr>
+                <tr>
+                    <th><input class="redondo1" type="button" value="N"></th>
+                    <th><input class="redondo" type="button" id ="31" value="31" onclick="setColor('31')"></th>
+                    <th><input class="redondo" type="button" id ="32" value="32" onclick="setColor('32')"></th>
+                    <th><input class="redondo" type="button" id ="33" value="33" onclick="setColor('33')"></th>
+                    <th><input class="redondo" type="button" id ="34" value="34" onclick="setColor('34')"></th>
+                    <th><input class="redondo" type="button" id ="35" value="35" onclick="setColor('35')"></th>
+                    <th><input class="redondo" type="button" id ="36" value="36" onclick="setColor('36')"></th>
+                    <th><input class="redondo" type="button" id ="37" value="37" onclick="setColor('37')"></th>
+                    <th><input class="redondo" type="button" id ="38" value="38" onclick="setColor('38')"></th>
+                    <th><input class="redondo" type="button" id ="39" value="39" onclick="setColor('39')"></th>
+                    <th><input class="redondo" type="button" id ="40" value="40" onclick="setColor('40')"></th>
+                    <th><input class="redondo" type="button" id ="41" value="41" onclick="setColor('41')"></th>
+                    <th><input class="redondo" type="button" id ="42" value="42" onclick="setColor('42')"></th>
+                    <th><input class="redondo" type="button" id ="43" value="43" onclick="setColor('43')"></th>
+                    <th><input class="redondo" type="button" id ="44" value="44" onclick="setColor('44')"></th>
+                    <th><input class="redondo" type="button" id ="45" value="45" onclick="setColor('45')"></th>
+                </tr>
+                <tr>
+                    <th><input class="redondo1" type="button" value="G"></th>
+                    <th><input class="redondo" type="button" id ="46" value="46" onclick="setColor('46')"></th>
+                    <th><input class="redondo" type="button" id ="47" value="47" onclick="setColor('47')"></th>
+                    <th><input class="redondo" type="button" id ="48" value="48" onclick="setColor('48')"></th>
+                    <th><input class="redondo" type="button" id ="49" value="49" onclick="setColor('49')"></th>
+                    <th><input class="redondo" type="button" id ="50" value="50" onclick="setColor('50')"></th>
+                    <th><input class="redondo" type="button" id ="51" value="51" onclick="setColor('51')"></th>
+                    <th><input class="redondo" type="button" id ="52" value="52" onclick="setColor('52')"></th>
+                    <th><input class="redondo" type="button" id ="53" value="53" onclick="setColor('53')"></th>
+                    <th><input class="redondo" type="button" id ="54" value="54" onclick="setColor('54')"></th>
+                    <th><input class="redondo" type="button" id ="55" value="55" onclick="setColor('55')"></th>
+                    <th><input class="redondo" type="button" id ="56" value="56" onclick="setColor('56')"></th>
+                    <th><input class="redondo" type="button" id ="57" value="57" onclick="setColor('57')"></th>
+                    <th><input class="redondo" type="button" id ="58" value="58" onclick="setColor('58')"></th>
+                    <th><input class="redondo" type="button" id ="59" value="59" onclick="setColor('59')"></th>
+                    <th><input class="redondo" type="button" id ="60" value="60" onclick="setColor('60')"></th>
+                </tr>
+                <tr>
+                    <th><input class="redondo1" type="button" value="O"></th>
+                    <th><input class="redondo" type="button" id ="61" value="61" onclick="setColor('61')"></th>
+                    <th><input class="redondo" type="button" id ="62" value="62" onclick="setColor('62')"></th>
+                    <th><input class="redondo" type="button" id ="63" value="63" onclick="setColor('63')"></th>
+                    <th><input class="redondo" type="button" id ="64" value="64" onclick="setColor('64')"></th>
+                    <th><input class="redondo" type="button" id ="65" value="65" onclick="setColor('65')"></th>
+                    <th><input class="redondo" type="button" id ="66" value="66" onclick="setColor('66')"></th>
+                    <th><input class="redondo" type="button" id ="67" value="67" onclick="setColor('67')"></th>
+                    <th><input class="redondo" type="button" id ="68" value="68" onclick="setColor('68')"></th>
+                    <th><input class="redondo" type="button" id ="69" value="69" onclick="setColor('69')"></th>
+                    <th><input class="redondo" type="button" id ="70" value="70" onclick="setColor('70')"></th>
+                    <th><input class="redondo" type="button" id ="71" value="71" onclick="setColor('71')"></th>
+                    <th><input class="redondo" type="button" id ="72" value="72" onclick="setColor('72')"></th>
+                    <th><input class="redondo" type="button" id ="73" value="73" onclick="setColor('73')"></th>
+                    <th><input class="redondo" type="button" id ="74" value="74" onclick="setColor('74')"></th>
+                    <th><input class="redondo" type="button" id ="75" value="75" onclick="setColor('75')"></th>
+                </tr>
+            </table>
+        </div>    
     </body>
 </html>
