@@ -24,6 +24,7 @@
         <script src="bootstrap-4.3.1-dist/js/bootstrap.js" type="text/javascript"></script>
         <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="../Controlador/scriptSorteo.js" type="text/javascript"></script>
+        <script src="../Controlador/scriptModalidad.js" type="text/javascript"></script>
         <title>Bingo</title>
     </head>
     <body>
@@ -51,6 +52,47 @@
             </div>
             <div id="modalidad">
                 <div class="box">
+                    <center>
+                        <img src="images/Captura de pantalla 2019-04-04 a la(s) 14.39.52.png" id="modo" onclick="cambiarModo()">
+                    </center>
+                    </div>
+                    <div id="navmoddiv">
+                        <!--
+                        <nav>
+                            <ol class="list-group"  id="modalidadul">
+                            <tr>
+                                <th><input id="botonlineaB" class="botonModalidadF1" type="button" value="Linea B" onclick="setModalidad('lineaB')"></th>
+                            </tr>
+                            <tr>
+                                <th><input id="botonlineaI" class="botonModalidadF1" type="button" value="Linea I"></th>
+                            </tr>
+                            <tr>
+                                <th><input id="botonlineaN" class="botonModalidadF1" type="button" value="Linea N"></th>
+                            </tr>
+                            <tr>
+                                <th><input id="botonlineaG" class="botonModalidadF1" type="button" value="Linea G"></th>
+                            </tr>
+                            <tr>
+                                <th><input id="botonlineaO" class="botonModalidadF1" type="button" value="Linea O"></th>
+                            </tr>
+                            <tr>
+                                <th><input id="botonX" class="botonModalidadF1" type="button" value="X"></th>
+                            </tr>
+                            <tr>
+                                <th><input id="botonL" class="botonModalidadF1" type="button" value="L"></th>
+                            </tr>
+                            <tr>
+                                <th><input id="botonC" class="botonModalidadF1" type="button" value="C"></th>
+                            </tr>
+                            <tr>
+                                <th><input id="botonU" class="botonModalidadF1" type="button" value="U"></th>
+                            </tr>
+                            <tr>
+                                <th><input id="botonO" class="botonModalidadF1" type="button" value="O"></th>
+                            </tr>
+                            </ol>
+                    </nav>    
+                    <!--
                     <table id="tablaModalidad">
                         <tr>
                             <th><input id="botonModalidadF1" type="button" value="Lineal B"></th>
@@ -68,6 +110,7 @@
                             <th><input id="botonModalidadF3" type="button" value="Completo"></th>
                         </tr>                        
                     </table>
+                    -->
                 </div>
             </div>
         </div>
