@@ -28,6 +28,9 @@
         <title>Bingo</title>
     </head>
     <body>
+        <audio id="audio" src="" autoplay>
+            
+        </audio>
         <div id="base">
             <div id="tombola">
                 <div id="Sorteo">
