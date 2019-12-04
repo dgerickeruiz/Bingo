@@ -41,8 +41,9 @@ function Sortear() {
         document.getElementById('Sorteo').innerHTML = Sorteo;
         var ul = document.getElementById("sorteoLista");
         var li = document.createElement("lis");
+        var nodo = ul.lastChild;
         li.appendChild(document.createTextNode(sorteoArray[i]));
-        ul.appendChild(li);
+        ul.insertBefore(li, ul.childNodes[0]);
         i++;
     }
     if (repetido == true) {

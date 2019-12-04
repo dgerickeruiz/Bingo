@@ -17,7 +17,6 @@
     text-align:center;
     border-color:black;
     border-width:5px;
-    transform: rotate(180deg);
 }
 
 #modalidad{
@@ -160,9 +159,4 @@ ul{
     position:absolute;
     height: 100%;
     width: 100%;
-}
-#sorteoLista{
-    
-    transform: rotate(180deg)
-    
 }

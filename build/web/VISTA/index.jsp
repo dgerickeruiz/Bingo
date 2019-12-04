@@ -45,7 +45,6 @@
                 <div id="navlistdiv">
                     <nav>
                         <ul class="list-group"  id="sorteoLista">
-                            
                         </ul>
                     </nav>    
                 </div>
