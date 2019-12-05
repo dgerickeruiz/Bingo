@@ -6,8 +6,7 @@ repetido = false;
 function Sortear() {
     var valor = document.getElementById('boton').value;
     if (valor == "Girando") {
-        document.getElementById('boton').value = "Girar la Tombola";
-
+        document.getElementById('audio').src = "../VISTA/audio/audioPlatillo.mp3";
         var Sorteo = "Coca-Cola";
 
         var n = Math.floor(Math.random() * 75) + 1;
@@ -38,7 +37,7 @@ function Sortear() {
             if (n >= 61 && n <= 75) {
                 Sorteo = "O - " + n;
             }
-
+            document.getElementById('boton').value = "Girar la Tombola";
             sorteoArray[i] = Sorteo
             document.getElementById('Sorteo').style.color = "white";
             document.getElementById('Sorteo').innerHTML = Sorteo;

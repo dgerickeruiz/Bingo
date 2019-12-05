@@ -29,8 +29,10 @@
     </head>
     <body>
         <audio id="audio" src="" autoplay>
-            
         </audio>
+        <div id="divlogos1">
+            <img id ="logo1" src="images/imageLogo2.jpg" alt=""/>
+        </div>
         <div id="base">
             <div id="tombola">
                 <div id="Sorteo">
@@ -55,45 +57,45 @@
             <div id="modalidad">
                 <div class="box">
                     <center>
-                        <img src="images/Captura de pantalla 2019-04-04 a la(s) 14.39.52.png" id="modo" onclick="cambiarModo()">
+                        <img src="images/Captura de pantalla 2019-04-04 a la(s) 14.jpg" id="modo" onclick="cambiarModo()"/>
                     </center>
-                    </div>
-                    <div id="navmoddiv">
-                        <!--
-                        <nav>
-                            <ol class="list-group"  id="modalidadul">
-                            <tr>
-                                <th><input id="botonlineaB" class="botonModalidadF1" type="button" value="Linea B" onclick="setModalidad('lineaB')"></th>
-                            </tr>
-                            <tr>
-                                <th><input id="botonlineaI" class="botonModalidadF1" type="button" value="Linea I"></th>
-                            </tr>
-                            <tr>
-                                <th><input id="botonlineaN" class="botonModalidadF1" type="button" value="Linea N"></th>
-                            </tr>
-                            <tr>
-                                <th><input id="botonlineaG" class="botonModalidadF1" type="button" value="Linea G"></th>
-                            </tr>
-                            <tr>
-                                <th><input id="botonlineaO" class="botonModalidadF1" type="button" value="Linea O"></th>
-                            </tr>
-                            <tr>
-                                <th><input id="botonX" class="botonModalidadF1" type="button" value="X"></th>
-                            </tr>
-                            <tr>
-                                <th><input id="botonL" class="botonModalidadF1" type="button" value="L"></th>
-                            </tr>
-                            <tr>
-                                <th><input id="botonC" class="botonModalidadF1" type="button" value="C"></th>
-                            </tr>
-                            <tr>
-                                <th><input id="botonU" class="botonModalidadF1" type="button" value="U"></th>
-                            </tr>
-                            <tr>
-                                <th><input id="botonO" class="botonModalidadF1" type="button" value="O"></th>
-                            </tr>
-                            </ol>
-                    </nav>    
+                </div>
+                <div id="navmoddiv">
+                    <!--
+                    <nav>
+                        <ol class="list-group"  id="modalidadul">
+                        <tr>
+                            <th><input id="botonlineaB" class="botonModalidadF1" type="button" value="Linea B" onclick="setModalidad('lineaB')"></th>
+                        </tr>
+                        <tr>
+                            <th><input id="botonlineaI" class="botonModalidadF1" type="button" value="Linea I"></th>
+                        </tr>
+                        <tr>
+                            <th><input id="botonlineaN" class="botonModalidadF1" type="button" value="Linea N"></th>
+                        </tr>
+                        <tr>
+                            <th><input id="botonlineaG" class="botonModalidadF1" type="button" value="Linea G"></th>
+                        </tr>
+                        <tr>
+                            <th><input id="botonlineaO" class="botonModalidadF1" type="button" value="Linea O"></th>
+                        </tr>
+                        <tr>
+                            <th><input id="botonX" class="botonModalidadF1" type="button" value="X"></th>
+                        </tr>
+                        <tr>
+                            <th><input id="botonL" class="botonModalidadF1" type="button" value="L"></th>
+                        </tr>
+                        <tr>
+                            <th><input id="botonC" class="botonModalidadF1" type="button" value="C"></th>
+                        </tr>
+                        <tr>
+                            <th><input id="botonU" class="botonModalidadF1" type="button" value="U"></th>
+                        </tr>
+                        <tr>
+                            <th><input id="botonO" class="botonModalidadF1" type="button" value="O"></th>
+                        </tr>
+                        </ol>
+                </nav>    
                     <!--
                     <table id="tablaModalidad">
                         <tr>
