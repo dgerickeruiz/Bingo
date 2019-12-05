@@ -33,6 +33,9 @@
         <div id="divlogos1">
             <img id ="logo1" src="images/imageLogo2.jpg" alt=""/>
         </div>
+        <div id="divlogos2">
+            <img id ="logo2" src="images/imageSiente.jpg" alt=""/>
+        </div>
         <div id="base">
             <div id="tombola">
                 <div id="Sorteo">
