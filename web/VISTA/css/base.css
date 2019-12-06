@@ -2,8 +2,8 @@
     position: absolute;
     height: 80%;
     width: 60%;
-    background-color:rgb(219,18,38); 
-    top:20%;  
+    background-color:rgb(219,18,38);
+    text-align: center;
 }
 
 #lista{
@@ -86,9 +86,34 @@ nav ul{
 }
 
 #Sorteo{
-    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size:1250%;
-    left:5000px;   
+    top: 25%;
+}
+
+#divlogos1{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+
+#logo1{
+    position: absolute;
+}
+
+#divlogos2{
+    position:absolute;
+    left: 20%;
+    height: 60%;
+}
+
+#logo2{
+    position: absolute;    
+    height: 15%;
+    top: 55%;
 }
 
 #boton{
@@ -108,7 +133,6 @@ nav ul{
 .botonModalidadF1{
     
     background-color:#9c9c9c;
-    font-size: 130%;
     border:solid;
     text-align:center;
     border-color:black;
@@ -159,32 +183,4 @@ ul{
     position:absolute;
     height: 100%;
     width: 100%;
-}
-
-#logo1{
-    top:0%;
-    position: absolute;
-        
-    
-}
-
-#divlogos1{
-    z-index:2;
-    position:absolute;
-    left:19%;
-}
-
-#logo2{
-    top:120%;
-    position: absolute;    
-    height: 20%    
-    
-}
-
-#divlogos2{
-    z-index:2;
-    position:absolute;
-    left:5%;
-    height:400px;
-    width: 400px;
 }
