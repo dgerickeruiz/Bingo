@@ -6,11 +6,13 @@ var count=1;
 function setColor(btn){
     var property = document.getElementById(btn);
     if (count==1){
-        property.style.backgroundColor = "#fe001a";
+        property.style.backgroundColor = "000000";
+        property.style.color="white";
         count=0;
     }
     else if (count==0){
         property.style.backgroundColor = "#ffffff";
+        property.style.color="black";
         count=1;
     }
 }
@@ -93,6 +95,10 @@ function cambiarModo(){
         contador++;
     }
     else if(contador == 14){
+        document.getElementById("modo").src="../VISTA/images/imageCartonCompleto.jpg";
+        contador++;
+    }
+    else if(contador == 15){
         contador=0;
         cambiarModo();
     }

@@ -5,8 +5,8 @@ var cursor = 0;
 repetido = false;
 function Sortear() {
     var valor = document.getElementById('boton').value;
-    if (valor == "Girando") {
-        document.getElementById('audio').src = "../VISTA/audio/audioPlatillo.mp3";
+    if (valor == "Sortear") {
+        document.getElementById('audio').src = "../VISTA/audio/audioDestape.mp3";
         var Sorteo = "Coca-Cola";
 
         var n = Math.floor(Math.random() * 75) + 1;
@@ -37,6 +37,7 @@ function Sortear() {
             if (n >= 61 && n <= 75) {
                 Sorteo = "O - " + n;
             }
+            document.getElementById('gifImage').src=""
             document.getElementById('boton').value = "Girar la Tombola";
             sorteoArray[i] = Sorteo
             document.getElementById('Sorteo').style.color = "white";
@@ -54,8 +55,12 @@ function Sortear() {
         }
     }else if(valor=="Girar la Tombola"){
         document.getElementById('audio').src = "../VISTA/audio/audioRedoble.mp3";
-        document.getElementById('Sorteo').innerHTML = "Girando";
-        document.getElementById('boton').value = "Girando";    
-        
+        document.getElementById('gifImage').src="../VISTA/images/Loop 1130.4x864_1.gif"
+        document.getElementById('Sorteo').innerHTML = "";
+        document.getElementById('boton').value = "Girando";     
+    }else if(valor=="Girando"){
+        document.getElementById('gifImage').src="../VISTA/images/Coca 1130.4x864.gif"
+        document.getElementById('Sorteo').innerHTML = "";
+        document.getElementById('boton').value = "Sortear";   
     }
 }

@@ -10,7 +10,19 @@
 }
 
 #bingo{
+    left:9%;
     position: absolute;
     top:20%;
     background-image:url('b.png');
+    background-color:rgb(219,18,38);
+}
+
+body{
+    background-color:rgb(219,18,38);
+}
+#siente{
+    
+    height:auto;
+    width:90%;
+    
 }

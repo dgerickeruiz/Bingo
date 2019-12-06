@@ -30,6 +30,9 @@
     <body>
         <audio id="audio" src="" autoplay>
         </audio>
+        <div id="gif">
+            <img src="" id="gifImage"/>
+        </div>
         <div id="base">
             <div id="tombola">
                 <div id="Sorteo">
@@ -43,8 +46,9 @@
                 </div>
             </div>
             <div ID="contenedorboton">
-                <br>
-                <br>
+                <div id="botella">
+                    <img id="imgbotella" src="images/imageBotella.png" alt=""/>
+                </div>
                 <div>
                     <input id="boton" type="button" value="Girar la Tombola" onclick="Sortear()">
                 </div>
@@ -63,62 +67,7 @@
                         <img src="images/Captura de pantalla 2019-04-04 a la(s) 14.jpg" id="modo" onclick="cambiarModo()"/>
                     </center>
                 </div>
-                <div id="navmoddiv">
-                    <!--
-                    <nav>
-                        <ol class="list-group"  id="modalidadul">
-                        <tr>
-                            <th><input id="botonlineaB" class="botonModalidadF1" type="button" value="Linea B" onclick="setModalidad('lineaB')"></th>
-                        </tr>
-                        <tr>
-                            <th><input id="botonlineaI" class="botonModalidadF1" type="button" value="Linea I"></th>
-                        </tr>
-                        <tr>
-                            <th><input id="botonlineaN" class="botonModalidadF1" type="button" value="Linea N"></th>
-                        </tr>
-                        <tr>
-                            <th><input id="botonlineaG" class="botonModalidadF1" type="button" value="Linea G"></th>
-                        </tr>
-                        <tr>
-                            <th><input id="botonlineaO" class="botonModalidadF1" type="button" value="Linea O"></th>
-                        </tr>
-                        <tr>
-                            <th><input id="botonX" class="botonModalidadF1" type="button" value="X"></th>
-                        </tr>
-                        <tr>
-                            <th><input id="botonL" class="botonModalidadF1" type="button" value="L"></th>
-                        </tr>
-                        <tr>
-                            <th><input id="botonC" class="botonModalidadF1" type="button" value="C"></th>
-                        </tr>
-                        <tr>
-                            <th><input id="botonU" class="botonModalidadF1" type="button" value="U"></th>
-                        </tr>
-                        <tr>
-                            <th><input id="botonO" class="botonModalidadF1" type="button" value="O"></th>
-                        </tr>
-                        </ol>
-                </nav>    
-                    <!--
-                    <table id="tablaModalidad">
-                        <tr>
-                            <th><input id="botonModalidadF1" type="button" value="Lineal B"></th>
-                            <th><input id="botonModalidadF1" type="button" value="Lineal I"></th>
-                            <th><input id="botonModalidadF1" type="button" value="Lineal N"></th>
-                        </tr>
-                        <tr>
-                            <th><input id="botonModalidadF2" type="button" value="Lineal G"></th>
-                            <th><input id="botonModalidadF2" type="button" value="Lineal O"></th>
-                            <th><input id="botonModalidadF2" type="button" value="Forma L"></th>
-                        </tr>
-                        <tr>
-                            <th><input id="botonModalidadF3" type="button" value="Forma O"></th>
-                            <th><input id="botonModalidadF3" type="button" value="Forma U"></th>
-                            <th><input id="botonModalidadF3" type="button" value="Completo"></th>
-                        </tr>                        
-                    </table>
-                    -->
-                </div>
+
             </div>
         </div>
     </body>
