@@ -3,9 +3,10 @@ var sorteoArray = new Array(74);
 var i = 0;
 var cursor = 0;
 repetido = false;
+var estado = "Girar la Tombola";
 function Sortear() {
     var valor = document.getElementById('boton').value;
-    if (valor == "Sortear") {
+    if (estado == "Sortear") {
         document.getElementById('audio').src = "../VISTA/audio/audioDestape.mp3";
         var Sorteo = "Coca-Cola";
 
@@ -38,7 +39,8 @@ function Sortear() {
                 Sorteo = "O - " + n;
             }
             document.getElementById('gifImage').src=""
-            document.getElementById('boton').value = "Girar la Tombola";
+            document.getElementById('divlogos1').style.visibility = "visible";
+            document.getElementById('divlogos2').style.visibility = "visible";
             sorteoArray[i] = Sorteo
             document.getElementById('Sorteo').style.color = "white";
             document.getElementById('Sorteo').innerHTML = Sorteo;
@@ -48,19 +50,22 @@ function Sortear() {
             li.appendChild(document.createTextNode(sorteoArray[i]));
             ul.insertBefore(li, ul.childNodes[0]);
             i++;
+            estado="Girar la Tombola";
         }
         if (repetido == true) {
             repetido = false;
             Sortear();
         }
-    }else if(valor=="Girar la Tombola"){
+    }else if(estado=="Girar la Tombola"){
+        document.getElementById('divlogos1').style.visibility = "hidden";
+        document.getElementById('divlogos2').style.visibility = "hidden";
         document.getElementById('audio').src = "../VISTA/audio/audioRedoble.mp3";
         document.getElementById('gifImage').src="../VISTA/images/Loop 1130.4x864_1.gif"
+        document.getElementById('Sorteo').innerHTML = ""; 
+        estado="Girando";
+    }else if(estado=="Girando"){
+        document.getElementById('gifImage').src="../VISTA/images/gifPelota.gif"
         document.getElementById('Sorteo').innerHTML = "";
-        document.getElementById('boton').value = "Girando";     
-    }else if(valor=="Girando"){
-        document.getElementById('gifImage').src="../VISTA/images/Coca 1130.4x864.gif"
-        document.getElementById('Sorteo').innerHTML = "";
-        document.getElementById('boton').value = "Sortear";   
+        estado="Sortear";
     }
 }

@@ -2,8 +2,13 @@
     position: absolute;
     height: 80%;
     width: 60%;
-    background-color:rgb(219,18,38);
     text-align: center;
+    border-radius: 7000px 7000px 7000px 7000px;
+    -moz-border-radius: 7000px 7000px 7000px 7000px;
+    -webkit-border-radius: 7000px 7000px 7000px 7000px;
+    border: 7px solid #000000;
+    z-index : 90000000;
+    
 }
 
 #lista{
@@ -13,10 +18,8 @@
     height:40%; 
     width:40%;
     background-color:rgb(219,18,38);
-    border:solid;
     text-align:center;
-    border-color:black;
-    border-width:5px;
+
 }
 
 #modalidad{
@@ -26,9 +29,7 @@
     height:60%; 
     width:40%;
     background-color:rgb(219,18,38);
-    border:solid;
-    border-color:black;
-    border-width:5px;
+
 
 }
 
@@ -120,19 +121,17 @@ nav ul{
     height: 100%;
     width: 100%;
     top:0;
-    background-color:#9c9c9c;
+    background-color:rgb(219,18,38);
     font-size: 450%;
-    border:solid;
+
     text-align:center;
-    border-color:black;
-    border-width:5px;
+
     color:white;    
 }
 
 .botonModalidadF1{
     
     background-color:#9c9c9c;
-    border:solid;
     text-align:center;
     border-color:black;
     border-width:3px;
@@ -186,13 +185,12 @@ ul{
 #gif{
     position: absolute;
     height:60%;  
-    left:5%;
+    left:7%;
     top:0%; 
     z-index : 50000000;
     
 }
 #gifImage{
-    
     height:132%;
     width: auto;
     
@@ -210,3 +208,13 @@ ul{
     width: 25%;
     
 }
+
+#boton{
+    
+    background-image: url("../images/imageBotella2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    outline-color: rgb(219,18,38);
+    border:none;
+}
+#boton::-moz-focus-inner{border:0;}

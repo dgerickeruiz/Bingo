@@ -46,11 +46,8 @@
                 </div>
             </div>
             <div ID="contenedorboton">
-                <div id="botella">
-                    <img id="imgbotella" src="images/imageBotella.png" alt=""/>
-                </div>
                 <div>
-                    <input id="boton" type="button" value="Girar la Tombola" onclick="Sortear()">
+                    <input id="boton" type="button" value="" onclick="Sortear()">
                 </div>
             </div>
             <div id="lista">
