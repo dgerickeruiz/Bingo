@@ -37,7 +37,6 @@ function setModalidad(btn){
 **/
 var contador = 0;
 function cambiarModo(){
-    
     if(contador == 0){       
         document.getElementById("modo").src="../VISTA/images/imageLineaB2.jpg";
         contador++;
