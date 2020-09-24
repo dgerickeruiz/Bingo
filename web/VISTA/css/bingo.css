@@ -1,28 +1,16 @@
 #cambiacolor{
-    width: 30%;
-    height: 30%;
-    font-size: 170%;
-    border-radius: 100% 100% 100% 100%;
-    -moz-border-radius: 100% 100% 100% 100%;
-    -webkit-border-radius: 100% 100% 100% 100%;
+    width: 20%;
+    height: 20%;
+    border-radius: 10vw;
     border: 2px solid #000000;
-    background-color:red;
 }
 
 #bingo{
-    left:9%;
-    position: absolute;
-    top:20%;
-    background-image:url('b.png');
-    background-color:rgb(219,18,38);
+    position: relative;
 }
-
 body{
     background-color:rgb(219,18,38);
 }
 #siente{
-    
-    height:auto;
-    width:90%;
-    
+    height: 5vw;
 }

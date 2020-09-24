@@ -1,12 +1,8 @@
 #tombola{
     position: absolute;
-    height: 80%;
+    height: 70%;
     width: 60%;
-    text-align: center;
-    border-radius: 7000px 7000px 7000px 7000px;
-    border: 7px solid #000000;
     z-index : 90000000;
-    
 }
 
 #lista{
@@ -22,13 +18,11 @@
 
 #modalidad{
     position:absolute;
-    top:40%;
-    left:60%;
-    height:60%; 
-    width:40%;
+    bottom:30%;
+    right:1%;
+    height:20%; 
+    width:35%;
     background-color:rgb(219,18,38);
-
-
 }
 
 #base{
@@ -43,11 +37,11 @@
 
 #contenedorboton{
     position:absolute;
-    top:80%;
-    height: 20%;
+    top:70%;
+    height: 30%;
     width: 60%;
 }
-
+/* 
 nav ol{
     height:360px;
     width:100%;
@@ -59,14 +53,13 @@ nav ol{
     overflow:hidden; 
     overflow-y:scroll;
     align-content: center;
-}
+} */
 
 nav ul{
-    height:260px;
-    width:100%;
-    font-size:60px;
+    height:50vh;
+    width: 40vw;
+    font-size:5vw;
     font-family:Impact;
-    top:0%;
 }
 
 nav ul{
@@ -77,40 +70,51 @@ nav ul{
 
 #navlistdiv{
     position:absolute;
-    left:0%;
     width:100%;
     height:10%;
 }
 
 #Sorteo{
+    height: 100%;
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size:1250%;
-    top: 25%;
+    border: 9px solid #000000;
+    border-radius: 90em;
+    font-size: 15vw;
+    padding-top: 10vh;
+}
+#numero{    
+    color:white;
 }
 
 #divlogos1{
     position: absolute;
-    top: 5%;
-    left: 35%;
+    top: 10%;
+    margin-left: 38%;
 }
 
 #logo1{
     position: absolute;
+    height: 6vw;
 }
 
+#divlogos2{
+    position: absolute;
+    left: 25%;
+    top: 80%;
+}
 
+#logo2{    
+    height: 3vw;
+}
 
 #boton{
     position:absolute;
     height: 100%;
     width: 100%;
-    top:0;
     background-color:rgb(219,18,38);
     font-size: 450%;
-
     text-align:center;
     color:white;    
 }
@@ -129,25 +133,15 @@ nav ul{
     width: 100%;
 }
 
-ul{  
-    background-color:rgb(219,18,38);
-}
-
 .box img{
-  width: 70%;
-  height: auto;
+    width: 60%;
 }
 
-#numero{
-    color:white;
-}
 
 .redondo1{
     width: 100%;
-    font-size: 340%;
-    border-radius: 400px 400px 400px 400px;
-    -moz-border-radius: 400px 400px 400px 400px;
-    -webkit-border-radius: 400px 400px 400px 400px;
+    font-size: 2vw;
+    border-radius: 1em;
     border: 4px solid #000000;
     background-color:black;
     color: white;
@@ -155,10 +149,8 @@ ul{
 
 .redondo{
     width: 100%;
-    font-size: 340%;
-    border-radius: 4000px 400px 400px 400px;
-    -moz-border-radius: 400px 400px 400px 400px;
-    -webkit-border-radius: 400px 400px 400px 400px;
+    font-size: 2vw;
+    border-radius: 1em;
     border: 4px solid #000000;
     background-color:#FFFFFF;
 }
@@ -168,39 +160,34 @@ ul{
     height: 100%;
     width: 100%;
 }
+
 #gif{
     position: absolute;
-    height:60%;  
-    left:7%;
-    top:0%; 
+    width: 30vw;
+    left:15vw;
+    top:3vw; 
     z-index : 50000000;
-    
 }
+
 #gifImage{
-    height:132%;
-    width: auto;
-    
+    width: 30vw;
 }
+
 #botella{
     top:15%;
     position: absolute;
     z-index:3;
-    
 }
 
 #imgbotella{
-    
     height:auto;
-    width: 25%;
-    
+    width: 25%;   
 }
 
 #boton{
-    
     background-image: url("../images/imageBotella2.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    outline-color: rgb(219,18,38);
     border:none;
+    background-size: 95%;
 }
-#boton::-moz-focus-inner{border:0;}

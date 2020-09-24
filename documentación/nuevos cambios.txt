@@ -1,0 +1,4 @@
+ScriptModalidad.js cambiado los else if por un switch
+base.css cambiado en proporciones de imagenes y texto para mas orden,
+imagenes, gif y texto en index.html con mas responsividad e igual en bingo.html 
+con la tabla de numeros
